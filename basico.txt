@@ -1,0 +1,60 @@
+1 - git config --global user.name "[-nome do usuário no github-]"
+fazer login perfil
+
+2 - git config --global user.email "[-email do usuário acima-]
+fazer login email
+
+3 - git config --list
+exibir algumas informações incluindo as duas de cima
+
+4 - clear
+limpa o terminal do git bush
+
+5 - git clone [-url do repositorio-]
+clona um repositório do GitHub no local atual
+
+6 - git status
+para verificar se houve alterações ou não no repositório
+
+7 - git add .
+confirmar as alterações
+
+8 - git commit -m "[-mensagem explicando a alteração-]"
+confirmar as modificações para o repositório atual
+
+9 - git push origin [-branch atual-]
+enviar as modificações para o repositório no GitHub
+
+10 - git init
+iniciar um repositório local
+
+11 - git branch -M main
+se estiver na branch master, entrar na branch main
+
+12 - git remote add origin [-link do repositorio-]
+vincular o repositório local ao repositório remoto
+note que ambos tem que está com o mesmo nome tanto no GitHub como na pasta do repositório local
+
+13 - git push -u origin main
+após o comando 12, se estiver tudo certo com os comandos 7 e 8, faz o primeiro push no repositório remoto assim que vincular com o repositório local.
+
+14 - git log
+exibir informações do repositório
+
+15 - git branch [-nome-]
+criar uma branch com o nome de sua preferencia
+
+16 - git checkout [-nome da branch-]
+trocar para outra branch
+
+17 - git merge [-nome da branch-]
+dentro da main ou master, esse comando se unir com outra branch para assumir suas diferenças
+
+18 - git branch
+exibe todas as branch existentes
+
+19 - git tag -a v1.1 -m "[-mensagem-]
+criar uma tag, um marcador usado para marcar versões estáveis, nesse caso, a tag v1.1 com uma mensagem de sua preferencia
+
+20 - git push origin v1.1
+após o comando 19, salvar a tag no repositório remoto
